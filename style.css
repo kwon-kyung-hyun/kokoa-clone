@@ -1,0 +1,17 @@
+@import "found/reset.css";
+@import "found/variables.css";
+@import "found/basic.css";
+@import "patterns/status-bar.css";
+@import "patterns/pattern1.css";
+@import "patterns/pattern2.css";
+@import "patterns/nav.css";
+
+/**/
+
+a[href~="interface5.html"]{
+    color: #a7abad;
+}
+
+#setting{
+    color: black;
+}

@@ -1,0 +1,31 @@
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color:white;
+    animation: starting 1s ease-in-out;
+}
+
+@keyframes starting{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.wrapper{
+    background-color: var(--maincolor);
+}
+
+.wrapper:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

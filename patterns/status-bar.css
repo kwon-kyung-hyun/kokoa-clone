@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.status-bar{
+    width: 400px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.status-bar div:first-child, .status-bar div:last-child, .status-bar span{
+    width: 33%;
+}
+
+.status-bar div:first-child{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.status-bar__text{
+    font-size: 7px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.status-bar__text:nth-child(2){
+    font-size: 13px;
+}
+
+
+.status-bar span{
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fas{
+    margin: 0 3px;
+}

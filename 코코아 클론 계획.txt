@@ -1,0 +1,46 @@
+대기화면
+<i class="fas fa-bold"></i> 대표 아이콘
+인터페이스-1
+status-bar/div>span,icon,span,icon,span,icon
+div>span, p
+form> input,input,input,input,a
+
+인터페이스-2
+status-bar/div>span,icon,span,icon,span,icon
+pattern1/div>span,icon,icon,icon
+div>a>icon,span,icon
+pattern2/div>(img),(div>span),(div>span,icon)
+div> span,icon
+div> pattern2, pattern2....
+
+nav>icon,icon,icon,icon
+
+
+인터페이스-3
+status-bar/div>span,icon,span,icon,span,icon
+pattern1/div>span,icon,icon,icon,icon
+pattern2/div>(img),(div>span),(div>span,icon)
+pattern2....
+
+nav>icon,icon,icon,icon
+
+
+인터페이스-4
+status-bar/div>span,icon,span,icon,span,icon
+pattern1/div>span,icon,icon
+
+
+인터페이스-5
+status-bar/div>span,icon,span,icon,span,icon
+pattern1/div>span,icon,icon,icon
+pattern2/div>(img),(div>span),(div>span,icon)
+
+
+세팅안쪽
+status-bar/div>span,icon,span,icon,span,icon
+
+
+채팅방
+status-bar/div>span,icon,span,icon,span,icon
+
+

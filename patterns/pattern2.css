@@ -1,0 +1,37 @@
+.pattern2{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.pattern2__img{
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+.pattern2__text{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pattern2__text__vital{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.pattern2__text__extra{
+    margin: 5px;
+}
+
+.pattern2__leftover{
+    width: 50px;
+    height: 60px;
+    display:flex;
+}
+
+.pattern2__leftover__span{}

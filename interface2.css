@@ -1,0 +1,109 @@
+.pattern1__icons{
+    width: 150px;
+}
+
+.nothing{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.nothing span{
+    margin: 0px 5px;;
+}
+
+.nothing span:first-child{
+    color: #a7abad;
+}
+
+.nothing span:last-child{
+    color: #a7abad;
+}
+
+.nothing span:nth-child(2){
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+.pt2-1{
+    height: 80px;
+}
+
+.pt2-1__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.pt2-1__text{
+    height: 60px;
+    justify-content: center;
+}
+
+.pt2-1__text__vital{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.noone{
+    width:400px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.noone span{
+    color: #a7abad;
+}
+
+.noone span:first-child{
+    font-weight: 600;
+}
+
+.pt2-2{
+    height: 60px;
+    margin: 3px 0px;
+}
+
+.pt2-2__img{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.pt2-2__text{
+    justify-content: center;
+    height: 45px;
+}
+
+.pt2-2__text__vital{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pt2-2__leftover{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt2-2__leftover span{
+    font-size: 13px;
+    color: #a7abad;
+    font-weight: 700;
+}
+
+.wrapper{
+    position: relative;
+}
+
+a[href~="interface3.html"]{
+    text-decoration: none;
+    color: black;
+}

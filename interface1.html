@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="interface1.css">
+    <title>interface1</title>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="status-bar">
+           <div>
+               <span class="status-bar__text">No Service</span>
+               <i class="fas fa-radiation"></i>
+           </div>
+           <span class="status-bar__text">14:25</span>
+           <div>
+               <i class="fas fa-user-lock"></i>
+               <span class="status-bar__text">11%</span>
+               <i class="fas fa-battery-quarter"></i>
+               <i class="fas fa-bolt"></i>
+           </div>
+       </div>
+       <header>
+           <span class="header__span">Welcome to Bacon</span>
+           <p class="header__p">If you have a Account, log in with your email or phone number.</p>   
+       </header>
+       <main>
+           <form class="main__form" action="interface2.html">
+               <input class="main__input" type="text" required placeholder="Emails or phone number">
+               <input class="main__input" type="password" required placeholder="Password">
+               <input class="main__submit" type="submit" value="Log In">
+           </form>
+        </main>
+        <footer>
+            <a class="footer__sign" href="#">Sign Up</a>
+            <a class="footer__find" href="#">Find Account or Password</a>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/6ce0c07125.js" crossorigin="anonymous"></script>
+</body>
+</html>

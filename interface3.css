@@ -1,0 +1,53 @@
+.pt2-2{
+    height: 70px;
+}
+
+.pt2-2__img{
+    width: 55px;
+    height: 55px;
+    border-radius: 17.5px;
+}
+
+.pt2-2__text{
+    height: 55px;
+    justify-content: space-evenly;
+}
+
+.pt2-2__text__vital{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pt2-2__text__extra{
+    font-size: 15px;
+    font-weight: 600;
+    color: #a7abad;
+}
+
+.pt2-2__leftover{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pt2-2__leftover span:first-child{
+    font-size: 13px;
+    font-weight: 700;
+    color: #a7abad;
+}
+
+.pt2-2__leftover span:last-child{
+    font-size: 13px;
+    color: var(--maincolor);
+}
+
+.wrapper{
+    position: relative;
+}
+
+.interactionban:hover{
+    cursor: not-allowed;
+}
